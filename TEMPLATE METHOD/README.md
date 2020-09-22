@@ -21,3 +21,10 @@ Participantes:
     - ApplicationClassOne/ApplicationClassTwo
         - É a classe que herda de FrameworkClass e redefine as etapas necessárias.
 
+
+
+# Exemplo:
+O código de exemplo implementa uma aplicação que dá orientações de treinamento para atletas remotamente, a classe OrientaçãoTreinamento é a FrameworkClass, que define o esqueleto do algoritmo, implementando alguns métodos que são padrões para todos atletas, e definindo os métodos que poderão ser sobrescritos pelas subclasses. As classes Judoca e Maratonista são ApplicationClassOne e ApplicationClassTwo, herdam de OrientaçãoTreinamento e sobrescreve as etapas que são necessárias para seu correto funcionamento.
+A classe Main, apenas implementa testes dessas classes.
+
+[Open](https://github.com/GTdelgado/Padroes_de_projetos/tree/master/TEMPLATE%20METHOD/sample%20code)

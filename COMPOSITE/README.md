@@ -30,3 +30,14 @@ Participantes:
 
     - Client
       - Manipula todos os elementos através da interface component, trabalhando da mesma forma com elementos simples ou elementos compostos da arvore.
+
+
+
+
+
+# Exemplo:
+No código de exemplo a intenção é obter o tamanho de pastas ou arquivos, a classe Component define a interface para manipular a estrutura, e implementa um default de getSize(), a classe File é uma leaf portanto apenas herda de component sem sobrescrever nenhum método, e a classe Folder é um composite, que implementa os métodos definidos em component além de sobrescrever o método getSize().
+Já a classe Main, é um client que manipula os elementos através da interface definida em Component.
+
+[Open](https://github.com/GTdelgado/Padroes_de_projetos/tree/master/COMPOSITE)
+
