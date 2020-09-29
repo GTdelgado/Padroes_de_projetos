@@ -31,5 +31,4 @@ Por exemplo:
 
 **Exemplo:**
 No código de exemplo é implementado um programa para ler e escrever em um arquivo de texto, implementado na classe MyFile(Singleton Lazy), onde diferentes objetos na classe Main (Client) recebem a mesma instancia de MyFile. 
-
-[Open]()
+[Open](https://github.com/GTdelgado/Padroes_de_projetos/tree/master/SINGLETON/sample%20code)
