@@ -30,4 +30,4 @@ Participantes:
 
 # Exemplo:
 O código de exemplo implementa uma conta bancaria, originator(Conta.java), que a cada operação de deposito ou saque gera um objeto memento (MementoConta.java) com o estado da conta anteriormente a esta operação, permitindo que este estado seja restaurado. Um objeto Caretaker (CareTackerConta.java) fica responsabilizado de receber os mementos, com o estado do originator, e armazená-los em uma lista.
-[Open]()
+[Open](https://github.com/GTdelgado/Padroes_de_projetos/tree/master/MEMENTO/sample%20code)
